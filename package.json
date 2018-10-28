@@ -1,0 +1,28 @@
+{
+  "name": "async-react-redux",
+  "version": "1.0.0",
+  "description": "A demo of React 16.6 async-scheduler and webpack",
+  "scripts": {
+    "start": "./node_modules/.bin/webpack --mode production",
+    "start:dev": "webpack-dev-server --mode development"
+  },
+  "author": "Shubham Naik",
+  "license": "MIT",
+  "dependencies": {
+    "react": "^16.6.0",
+    "react-dom": "^16.6.0",
+    "react-redux": "^5.1.0",
+    "react-router-dom": "^4.3.1",
+    "redux": "^4.0.1"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.1.2",
+    "@babel/plugin-syntax-dynamic-import": "^7.0.0",
+    "@babel/preset-env": "^7.1.0",
+    "@babel/preset-react": "^7.0.0",
+    "babel-loader": "^8.0.4",
+    "webpack": "^4.23.1",
+    "webpack-cli": "^3.1.2",
+    "webpack-dev-server": "^3.1.10"
+  }
+}
